@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstWebApiCore.Data.Contract\FirstWebApiCore.Data.Contract.csproj" />
+    <ProjectReference Include="..\Web.Core.EntityFramework\Web.Core.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>
